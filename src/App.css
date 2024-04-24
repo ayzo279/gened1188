@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #fdfdfd !important;
+  color: black !important;
+}
+
+a:link {
+  color: rgb(116, 207, 230);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(207, 84, 100);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+li {
+  padding-left: 10px;      /* Removes default padding */
+  margin-left: 0;       /* Ensures the list starts at the very left of the container */
+  text-align: left; 
+}
+
+ul {
+  list-style-position: outside; /* Ensures the bullet or number is outside the text block */
+}
+
